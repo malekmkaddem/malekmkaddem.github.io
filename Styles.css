@@ -1,15 +1,16 @@
 /* Malek Mkaddem */
 body {
-background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+background-color:cadetblue; 
 
 }
 
 h1 {
-font-weight: bold;
+    font-weight: bold;
+    font-size: 30pt;
     text-align: center;
 }   
 
-h2 {
+ {
 
  text-indent: 70%;
     text-align: right;
@@ -19,24 +20,55 @@ h2 {
  
     
 }
-h3 {
-    font-weight:lighter;
+
 }
-h4{
+h2{
     font-weight: bold;
     font-size: 180%;
     text-align: center;
 }
 
-h5{
+h3{
     font-weight: bold;
    font-size: 180%;
     text-align: center;
 }
 
+.box{
+    display: flex;
+    align-items: center;
+}
 .imag { 
    width: 300px;
     height: auto;
     
+    
+}
+.intro {
+   font-size: 18pt;
+    font-family: arial;
+    
+    
+}
+.reason{
+    font-size: 18pt;
+      font-family: arial;
+    text-align: justify;
 }
 
+    
+.list{
+    font-size: 16pt;
+    text-align: justify;
+    font-family: arial;
+   
+    
+}
+
+.link{
+  
+    font-size: 16pt;
+    text-align: justify;
+    font-family: arial;
+    
+}
